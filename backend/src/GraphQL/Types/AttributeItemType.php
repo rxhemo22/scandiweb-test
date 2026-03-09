@@ -5,6 +5,7 @@ namespace App\GraphQL\Types;
 use GraphQL\Type\Definition\ObjectType;
 use GraphQL\Type\Definition\Type;
 
+
 class AttributeItemType extends ObjectType
 {
     public function __construct()
