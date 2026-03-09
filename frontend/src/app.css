@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.app {
+    min-height: 100vh;
+}
+
+.main-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 80px 100px 0;
+}
+
+.overlay {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(57, 55, 72, 0.22);
+    z-index: 90;
+}
